@@ -1,0 +1,29 @@
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+}
+table{
+    border: 1px solid blue;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    padding: 10px;
+    border: 1px solid blue;
+}
+tr{
+    padding: 10px;
+    border: 1px solid blue;
+    text-align: center;
+    font-weight: bold;
+}
+tr:nth-child(2n){
+    background-color: yellow;
+}
+tr:nth-child(2n+1){
+    background-color: #fff;
+}
+.bgpink >td{
+    background-color: antiquewhite;
+
+}

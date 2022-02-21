@@ -1,0 +1,43 @@
+*{
+    box-shadow: border-box;
+}
+.boxcenter{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #000;
+}
+nav{
+    border: 1px solid #000;
+    width: 100%;
+    height: 40px;
+}
+.boxnoidung{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid #000;
+}
+.mb{
+    margin-bottom: 5px;
+}
+
+article{
+    width: calc(30% - 5px);
+   min-height: 500px;
+    background-color: #ccc;
+    float: left;
+    margin-right: 5px;
+}
+aside{
+    width: 70%;
+    min-height: 500px;
+    background-color: #666;
+    float: left;
+}
+footer{
+    border: 1px solid #000;
+    height: 100px;
+}
